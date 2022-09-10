@@ -1,0 +1,189 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Open link in available browser",
+    "description": "Ulauncher extension for open a specific link to a available browser",
+    "developer_name": "Luis Andrade",
+    "icon": "images/icon.png",
+    "preferences": [
+      {
+        "id": "open_kw",
+        "type": "keyword",
+        "name": "Open link in available browser",
+        "description": "Launch a link to a specific browser",
+        "default_value": "link"
+      },
+      {
+        "id": "firefox",
+        "type": "select",
+        "name": "Open in firefox browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "google-chrome",
+        "type": "select",
+        "name": "Open in Google Chrome browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "chrome",
+        "type": "select",
+        "name": "Open in Google Chrome browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "chromium",
+        "type": "select",
+        "name": "Open in Chromium browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "chromium-browser",
+        "type": "select",
+        "name": "Open in Chromium browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "epiphany",
+        "type": "select",
+        "name": "Open in epiphany browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "opera",
+        "type": "select",
+        "name": "Open in opera browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },
+      {
+        "id": "mozilla",
+        "type": "select",
+        "name": "Open in mozilla browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "false",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },
+      {
+        "id": "netscape",
+        "type": "select",
+        "name": "Open in netscape browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "false",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "galeon",
+        "type": "select",
+        "name": "Open in galeon browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "skipstone",
+        "type": "select",
+        "name": "Open in skipstone browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "mosaic",
+        "type": "select",
+        "name": "Open in mosaic browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "grail",
+        "type": "select",
+        "name": "Open in grail browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "links",
+        "type": "select",
+        "name": "Open in links browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "elinks",
+        "type": "select",
+        "name": "Open in elinks browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "lynx",
+        "type": "select",
+        "name": "Open in lynx browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      },{
+        "id": "w3m",
+        "type": "select",
+        "name": "Open in w3m browser",
+        "description": "Select Yes enable this browser",
+        "default_value": "true",
+        "options":[
+          {"value":"true","text":"Yes"},
+          {"value":"false","text":"No"}
+        ]
+      }
+    ]
+  }
